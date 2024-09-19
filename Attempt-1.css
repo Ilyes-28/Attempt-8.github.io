@@ -1,0 +1,576 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    background-color: red;
+    height: 110px;
+}
+span{
+    width: 33%;
+    background-color: green;
+    height: 110px;
+    float: left;
+}
+#Image-0{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dashed blue;
+}
+#P-0{
+    float: right;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+    line-height: 110px;
+}
+a{
+    text-decoration: none;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    line-height: 110px;
+    display: inline-block;
+    width: 100px;
+}
+nav{
+    width: 100%;
+    background-color: black;
+    height: 110px;
+    text-align: center;
+}
+li{
+    display: inline-block;
+}
+main{
+    width:67%;
+    background-color: brown;
+    height: 520px;
+    float: right;
+    position: relative;
+}
+article{
+    width: 400px;
+    background-color: red;
+    height: 400px;
+    position: absolute;
+    position: relative;
+    top: 8%;
+    left: 30%;
+    border-radius: 10% 20%;
+}
+div{
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    line-height: 80px;
+    text-align: center;
+}
+aside{
+    width:33%;
+    height: 520px;
+    position:relative;
+}
+aside img{
+    width: 100%;
+    height: 250px;
+}
+aside h1{
+    width: 100%;
+    height: 30px;
+    color: red;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: italic;
+    line-height: 30px;
+    text-align: center;
+    border-top: 5px dashed red;
+    border-bottom: 5px dashed red;
+    position: absolute;
+    top:48%;
+    padding: 10px 0px;    
+}
+#Image-2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dashed red;
+    position: absolute;
+    top: 75%;
+    left: 15%;
+}
+#Image-3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dashed green;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+}
+#Image-4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dashed blue;
+    position: absolute;
+    top: 75%;
+    left:45%;
+}
+#Image-5{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dashed brown;
+    position: absolute;
+    top: 60%;
+    left:60%;
+}
+#Thead-1{
+    background-color: red;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-1,#Input-2,#Input-3,#Input-4,#Input-5,#Input-6,#Input-7,#Input-8,#Input-9,#Input-10{
+    text-align: end;
+    margin-right: 5px;
+}
+#Tbody-1{
+    background-color:green;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-2{
+    width: 191px;
+}
+#Tbody-2{
+    background-color:blue;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-3{
+    width: 167px;
+}
+#Tbody-3{
+    background-color:brown;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-4{
+    width: 173px;
+}
+#Tfoot-1{
+    background-color:black;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Button-1{
+    padding: 10px 15px;
+}
+#P-1{
+    width: 100%;
+    background-color: red;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: italic;
+    color: gold;
+    border-top: 5px dashed gold;
+    border-bottom: 5px dashed gold;
+}
+.Image{
+    width: 100px;
+    height: 150px;
+}
+.Td{
+    text-align: center;
+}
+#P-2{
+    width: 100%;
+    background-color: green;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: italic;
+    color: gold;
+    border-top: 5px dashed gold;
+    border-bottom: 5px dashed gold;
+}
+#Button-2{
+    padding: 10px 15px;
+}
+#Thead-2{
+    background-color: red;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-5{
+    width:172px;
+}
+#Tbody-4{
+  background-color: green;
+  color: gold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-style: italic;
+}
+#Input-6{
+    width:148px;
+}
+#Tbody-5{
+    background-color: blue;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-7{
+    width:185px;
+}
+#Tbody-6{
+    background-color: brown;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-8{
+    width:204px;
+}
+#Tbody-7{
+    background-color: black;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-9{
+    width:186px;
+}
+#Tfoot-2{
+    background-color: orangered;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-10{
+    width:187px;
+}
+#Button-3{
+    padding: 10px 15px;
+}
+#Main{
+    width: 800px;
+    height: 205px;
+    border: 5px dashed black;
+    float: left;
+    position: relative;
+    background-color: white;
+    
+}
+#Article-1,#Article-2,#Article-3,#Article-4{
+    position: absolute;
+    top: 0%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    color: gold;
+    line-height: 50px;
+    border-radius: 0%;
+}
+#Article-1{
+    left: 0%;
+    background-color: red;
+}
+#Article-2{
+    left: 25%;
+    background-color: green;
+}
+#Article-3{
+    left: 50%;
+    background-color: blue;
+}
+#Article-4{
+    left:100%;
+    background-color: black;
+}
+@media only screen and (min-width:0px) and (max-width:480px){
+    span{
+        display: none;
+    }
+    main{
+        width: 100%;
+        position: relative;
+    }
+    article{
+        position: absolute;
+        left: 5%;
+    }
+    aside{
+        float: right;
+        width: 100%;
+    }
+    #Table-1{
+        transform: translate(35%,150%);
+    }
+    #Button-1{
+        transform: translate(130%,490%);
+    }
+    #Table-2{
+        transform: translate(30%,125%);
+    }
+    #Button-3{
+        transform: translate(140%,490%);
+    }
+    #Main{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content:center;
+        justify-content: flex-end;
+        width: 100%;
+        height: 418px;
+        position: relative;
+    }
+    #Article-1,#Article-2,#Article-3,#Article-4{
+        display: block;
+        width: 100%;
+        float: left;
+        height: 85px;
+        line-height: 85px;
+        padding: 15px 0px;
+        left: 0%;
+    }
+    #Article-2,#Article-3,#Article-4{
+        position: absolute;
+    }
+    #Article-2{
+        top: 23%;
+    }
+    #Article-3{
+        top: 45%;
+    }
+    #Article-4{
+        top: 95%;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    span{
+        width: 35%;
+        background-color: blue;
+        height: 110px;
+    }
+    #Image-0{
+        width: 85px;
+        border: 5px dashed red;
+    }
+    #P-0{
+        font-size:larger;
+    }
+    aside{
+        width: 35%;
+        position: relative;
+    }
+    #Image-2{
+        position: absolute;
+        left:0%;
+    }
+    #Image-3{
+        position: absolute;
+        left:20%;
+    }
+    #Image-4{
+        position: absolute;
+        left:35%;
+    }
+    #Image-5{
+        position: absolute;
+        left:50%;
+    }
+    main{
+        width: 65%;
+        position: relative;
+    }
+    article{
+        position: absolute;
+        top: 12%;
+        left: 12%;
+    }
+    #Table-1{
+        transform: translate(85%,150%);
+    }
+    #Button-1{
+        transform: translate(240%,492%);
+    }
+    #Table-2{
+        width: 100%;
+    }
+    .Image{
+        width: 200px;
+    }
+    #Button-2{
+        width: 100%;
+    }
+    #Table-3{
+        transform: translate(75%,130%);
+    }
+    #Button-3{
+        transform: translate(245%,505%);
+    }
+    #Main{
+        width: 98.5%;
+        position: relative;
+        height: 250px;
+    }
+    #Article-1{
+        position: absolute;
+        left: 0%;
+        height: 248px;
+    }
+    #Article-2{
+        position: absolute;
+        left: 25%;
+        height: 248px;
+    }
+    #Article-3{
+        position: absolute;
+        left:50%;
+        height: 248px;
+    }
+    #Article-4{
+        position: absolute;
+        left: 100%;
+        height: 248px;
+    }
+    #Article-1,#Article-2,#Article-3,#Article-4{
+        width: 190px;
+        line-height: 85px;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1279px){
+    span{
+        background-color: brown;
+    }
+    article{
+        top: 12%;
+    }
+    #Table-1{
+        transform: translate(200%,150%);
+    }
+    #Button-1{
+        transform: translate(490%,491%);
+    }
+    #Table-2{
+        width: 100%;
+    }
+    .Image{
+        width: 591px;
+    }
+    .Image-4{
+        width: 98.5%;
+        height: 200px;
+    }
+    #Table-3{
+        transform: translate(200%,130%);
+    }
+    #Button-3{
+        transform: translate(530%,505%);
+    }
+    #Main{
+        width: 99%;
+        position: relative;
+        height: 144px;
+    }
+    #Article-1,#Article-2,#Article-3,#Article-4{
+        position: absolute;
+        width: 312px;
+        height:140px;
+    }
+    #Article-1{
+        left: 0%;
+    }
+    #Article-2{
+        left: 25%;
+    }
+    #Article-3{
+        left:50%;
+    }
+    #Article-4{
+        left:100%;
+    }
+}
+@media only screen and (min-width:1280px){
+    span{
+        background-color: black;
+    }
+    #Image-0{
+        border: 5px dashed red;
+    }
+    nav{
+        background-color: blue;
+    }
+    article{
+        position: absolute;
+        top: 12%;
+    }
+    #Table-1{
+        transform: translate(220%,150%);
+    }
+    #Button-1{
+        transform: translate(530%,490%);
+    }
+    #Table-2{
+        width: 100%;
+    }
+    .Image{
+        width: 642px;
+    }
+    .Image-4{
+        width: 98%;
+        height: 250px;
+    }
+    #Button-2{
+        width: 100%;
+    }
+    #Table-3{
+        transform: translate(200%,120%);
+    }
+    #Button-3{
+        transform: translate(540%,470%);
+    }
+    #Main{
+        width: 100%;
+        height: 155px;
+    }
+    #Article-1,#Article-2,#Article-3,#Article-4{
+        width: 337px;
+        height: 150px;
+    }
+    #Article-1,#Article-2{
+        width: 340px;
+    }
+}
